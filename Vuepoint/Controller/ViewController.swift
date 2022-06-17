@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var collectionView: UICollectionView!
     
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad() 
         let layout = UICollectionViewFlowLayout()
         
         collectionView.collectionViewLayout = layout
@@ -22,6 +22,7 @@ class ViewController: UIViewController {
         collectionView.delegate = self
         collectionView.dataSource = self
     }
+    
     
 }
 
@@ -36,13 +37,13 @@ extension ViewController: UICollectionViewDataSource {
         return 1 
     }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 2
+        return Media.homeImages.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCell.identifier, for: indexPath) as! MyCollectionViewCell
-        
-        cell.configure(with: testImage)
+         
+        cell.configureCollection(with: Media.homeImages[indexPath.row])
         
         return cell
     }

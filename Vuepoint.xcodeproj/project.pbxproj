@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D7640A602856D17B00C4F74F /* FashionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A5F2856D17B00C4F74F /* FashionViewController.swift */; };
+		D72B7FF628582CC100CA0CA7 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B7FF528582CC100CA0CA7 /* Media.swift */; };
+		D72B7FFB285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */; };
+		D72B7FFC285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */; };
+		D7640A602856D17B00C4F74F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A5F2856D17B00C4F74F /* VideoViewController.swift */; };
 		D7640A662856D6EB00C4F74F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */; };
 		D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */; };
 		D7E3BCC12856A7C300643DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC02856A7C300643DCC /* AppDelegate.swift */; };
@@ -19,7 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D7640A5F2856D17B00C4F74F /* FashionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FashionViewController.swift; sourceTree = "<group>"; };
+		D72B7FF528582CC100CA0CA7 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
+		D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		D7640A5F2856D17B00C4F74F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 		D7E3BCBD2856A7C300643DCC /* Vuepoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vuepoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +54,9 @@
 			children = (
 				D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */,
 				D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */,
+				D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */,
+				D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */,
+				D72B7FF528582CC100CA0CA7 /* Media.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -64,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				D7E3BCC42856A7C300643DCC /* ViewController.swift */,
-				D7640A5F2856D17B00C4F74F /* FashionViewController.swift */,
+				D7640A5F2856D17B00C4F74F /* VideoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +169,7 @@
 			files = (
 				D7E3BCCD2856A7C400643DCC /* LaunchScreen.storyboard in Resources */,
 				D7E3BCCA2856A7C400643DCC /* Assets.xcassets in Resources */,
+				D72B7FFC285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib in Resources */,
 				D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */,
 				D7E3BCC82856A7C300643DCC /* Main.storyboard in Resources */,
 			);
@@ -172,9 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72B7FFB285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift in Sources */,
 				D7E3BCC52856A7C300643DCC /* ViewController.swift in Sources */,
 				D7640A662856D6EB00C4F74F /* MyCollectionViewCell.swift in Sources */,
-				D7640A602856D17B00C4F74F /* FashionViewController.swift in Sources */,
+				D72B7FF628582CC100CA0CA7 /* Media.swift in Sources */,
+				D7640A602856D17B00C4F74F /* VideoViewController.swift in Sources */,
 				D7E3BCC12856A7C300643DCC /* AppDelegate.swift in Sources */,
 				D7E3BCC32856A7C300643DCC /* SceneDelegate.swift in Sources */,
 			);

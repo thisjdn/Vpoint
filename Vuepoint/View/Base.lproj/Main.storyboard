@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item 1-->
+        <!--Home-->
         <scene sceneID="n6L-34-JSa">
             <objects>
                 <viewController id="Ihv-AV-A0v" customClass="ViewController" customModule="Vuepoint" customModuleProvider="target" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                             <constraint firstItem="rEj-cl-v49" firstAttribute="top" secondItem="o8j-vc-8Uh" secondAttribute="top" id="rkF-ct-8uQ"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="xme-qL-fcx"/>
+                    <tabBarItem key="tabBarItem" title="Home" id="xme-qL-fcx"/>
                     <connections>
                         <outlet property="collectionView" destination="rEj-cl-v49" id="ds2-4I-fFO"/>
                     </connections>
@@ -56,17 +56,48 @@
             </objects>
             <point key="canvasLocation" x="-1423" y="249"/>
         </scene>
-        <!--Item 2-->
+        <!--Video-->
         <scene sceneID="acW-Nl-CyP">
             <objects>
-                <viewController id="acR-Kh-ryF" customClass="FashionViewController" customModule="Vuepoint" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="acR-Kh-ryF" customClass="VideoViewController" customModule="Vuepoint" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rUD-2p-8wE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ydC-Da-y9T">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="3M9-qO-QDT">
+                                    <size key="itemSize" width="128" height="128"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="VideoCollectionViewCell" id="iZV-W1-ESB">
+                                        <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CXi-Fb-wNC">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </collectionViewCellContentView>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ufZ-ux-JK4"/>
-                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="ufZ-ux-JK4" firstAttribute="bottom" secondItem="ydC-Da-y9T" secondAttribute="bottom" id="RcZ-Xj-xqd"/>
+                            <constraint firstItem="ydC-Da-y9T" firstAttribute="trailing" secondItem="ufZ-ux-JK4" secondAttribute="trailing" id="VfO-rw-Wf1"/>
+                            <constraint firstItem="ydC-Da-y9T" firstAttribute="leading" secondItem="ufZ-ux-JK4" secondAttribute="leading" id="hLF-hi-CTQ"/>
+                            <constraint firstItem="ydC-Da-y9T" firstAttribute="top" secondItem="ufZ-ux-JK4" secondAttribute="top" id="wlg-ps-UMj"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="ShX-hD-g8X"/>
+                    <tabBarItem key="tabBarItem" title="Video" id="ShX-hD-g8X"/>
+                    <connections>
+                        <outlet property="collectionView" destination="ydC-Da-y9T" id="KPT-JY-lw6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UYs-kv-Epk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -95,8 +126,8 @@
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

@@ -17,8 +17,9 @@ class MyCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
     
-    public func configure(with image: UIImage) {
+    func configureCollection(with image: UIImage) {
         imageView.image = image
+        imageView.contentMode = .scaleAspectFill
     }
     
     static func nib() -> UINib {
