@@ -16,6 +16,7 @@ class VideoCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib() 
     }
+     
     
     func configureVideo(with image: UIImage) {
         videoImageView.image = image

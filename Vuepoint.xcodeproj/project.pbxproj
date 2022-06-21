@@ -13,6 +13,7 @@
 		D7640A602856D17B00C4F74F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A5F2856D17B00C4F74F /* VideoViewController.swift */; };
 		D7640A662856D6EB00C4F74F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */; };
 		D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */; };
+		D7BC3BF72861542D00572639 /* sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7BC3BF62861542D00572639 /* sample.mp4 */; };
 		D7E3BCC12856A7C300643DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC02856A7C300643DCC /* AppDelegate.swift */; };
 		D7E3BCC32856A7C300643DCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC22856A7C300643DCC /* SceneDelegate.swift */; };
 		D7E3BCC52856A7C300643DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC42856A7C300643DCC /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 		D7640A5F2856D17B00C4F74F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
+		D7BC3BF62861542D00572639 /* sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = sample.mp4; path = ../../../Movies/sample.mp4; sourceTree = "<group>"; };
 		D7E3BCBD2856A7C300643DCC /* Vuepoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vuepoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E3BCC02856A7C300643DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E3BCC22856A7C300643DCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 		D7E3BCBF2856A7C300643DCC /* Vuepoint */ = {
 			isa = PBXGroup;
 			children = (
+				D7BC3BF62861542D00572639 /* sample.mp4 */,
 				D7640A612856D2B600C4F74F /* Model */,
 				D7640A622856D2BB00C4F74F /* View */,
 				D7640A632856D2BF00C4F74F /* Controller */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7E3BCCD2856A7C400643DCC /* LaunchScreen.storyboard in Resources */,
+				D7BC3BF72861542D00572639 /* sample.mp4 in Resources */,
 				D7E3BCCA2856A7C400643DCC /* Assets.xcassets in Resources */,
 				D72B7FFC285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib in Resources */,
 				D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */,

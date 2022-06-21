@@ -6,16 +6,20 @@
 //
 
 import UIKit
+import AVKit
+import AVFoundation
 
 private let videoIdentifier = "VideoCollectionViewCell"
 
-class VideoViewController: UIViewController { 
+class VideoViewController: UIViewController {
+    
+    var player = AVPlayer()
+    var playerViewController = AVPlayerViewController()
     
     @IBOutlet var collectionView: UICollectionView!
-
+    
     override func viewDidLoad() {
-        super.viewDidLoad() 
-        
+        super.viewDidLoad()
         let layout = UICollectionViewFlowLayout()
         collectionView.collectionViewLayout = layout
         
@@ -24,14 +28,26 @@ class VideoViewController: UIViewController {
         collectionView.dataSource = self
     }
     
- 
-
 }
 
 extension VideoViewController: UICollectionViewDelegate {
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        print("tap successful!")
+        
+        playVideo(at: indexPath)
     }
+    
+    func playVideo(at indexPath: IndexPath) {
+        
+        let path = Bundle.main.path(forResource: "sample", ofType: ".mp4")
+        let urlWithPath = URL(fileURLWithPath: path!)
+        let player = AVPlayer(url: urlWithPath)
+        
+        playerViewController.player = player
+        self.present(playerViewController, animated: true, completion: nil)
+    }
+    
+    
 }
 
 extension VideoViewController: UICollectionViewDataSource {
