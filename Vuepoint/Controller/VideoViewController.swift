@@ -39,12 +39,14 @@ extension VideoViewController: UICollectionViewDelegate {
     
     func playVideo(at indexPath: IndexPath) {
         
-        let path = Bundle.main.path(forResource: "sample", ofType: ".mp4")
+        let path = Bundle.main.path(forResource: Media.videos[indexPath.row], ofType: ".mp4")
         let urlWithPath = URL(fileURLWithPath: path!)
         let player = AVPlayer(url: urlWithPath)
         
         playerViewController.player = player
-        self.present(playerViewController, animated: true, completion: nil)
+        self.present(playerViewController, animated: true, completion: {
+            self.playerViewController.player?.play()
+        })
     }
     
     

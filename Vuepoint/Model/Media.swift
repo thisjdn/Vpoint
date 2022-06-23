@@ -50,5 +50,16 @@ struct Media {
         UIImage(named: "v09")!
     ]
      
+    static var videos = [
+        "v01",
+        "v02",
+        "v03",
+        "v04",
+        "v05",
+        "v06",
+        "v07",
+        "v08",
+        "v09"
+    ]
     
 }
