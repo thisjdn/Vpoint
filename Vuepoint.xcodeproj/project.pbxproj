@@ -10,6 +10,9 @@
 		D72B7FF628582CC100CA0CA7 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B7FF528582CC100CA0CA7 /* Media.swift */; };
 		D72B7FFB285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */; };
 		D72B7FFC285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */; };
+		D752F71D286A7A210009E185 /* AlbumsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752F71B286A7A210009E185 /* AlbumsCollectionViewCell.swift */; };
+		D752F71E286A7A210009E185 /* AlbumsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D752F71C286A7A210009E185 /* AlbumsCollectionViewCell.xib */; };
+		D752F720286A7C2E0009E185 /* AlbumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D752F71F286A7C2E0009E185 /* AlbumsViewController.swift */; };
 		D7640A602856D17B00C4F74F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A5F2856D17B00C4F74F /* VideoViewController.swift */; };
 		D7640A662856D6EB00C4F74F /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */; };
 		D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */; };
@@ -22,6 +25,10 @@
 		D78D455928641240005D7277 /* v07.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D78D455028641240005D7277 /* v07.mp4 */; };
 		D78D455A28641240005D7277 /* v09.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D78D455128641240005D7277 /* v09.mp4 */; };
 		D78D455B28641240005D7277 /* v08.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D78D455228641240005D7277 /* v08.mp4 */; };
+		D7A2D1B1289EEFB700C05436 /* SelectedAlbumImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A2D1B0289EEFB700C05436 /* SelectedAlbumImageViewController.swift */; };
+		D7B437E0286AB0390017E884 /* SelectedAlbumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B437DF286AB0390017E884 /* SelectedAlbumViewController.swift */; };
+		D7B437E3286BCB330017E884 /* SelectedAlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B437E1286BCB330017E884 /* SelectedAlbumCollectionViewCell.swift */; };
+		D7B437E4286BCB330017E884 /* SelectedAlbumCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B437E2286BCB330017E884 /* SelectedAlbumCollectionViewCell.xib */; };
 		D7E3BCC12856A7C300643DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC02856A7C300643DCC /* AppDelegate.swift */; };
 		D7E3BCC32856A7C300643DCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC22856A7C300643DCC /* SceneDelegate.swift */; };
 		D7E3BCC52856A7C300643DCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E3BCC42856A7C300643DCC /* ViewController.swift */; };
@@ -34,6 +41,9 @@
 		D72B7FF528582CC100CA0CA7 /* Media.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Media.swift; sourceTree = "<group>"; };
 		D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
 		D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoCollectionViewCell.xib; sourceTree = "<group>"; };
+		D752F71B286A7A210009E185 /* AlbumsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsCollectionViewCell.swift; sourceTree = "<group>"; };
+		D752F71C286A7A210009E185 /* AlbumsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumsCollectionViewCell.xib; sourceTree = "<group>"; };
+		D752F71F286A7C2E0009E185 /* AlbumsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsViewController.swift; sourceTree = "<group>"; };
 		D7640A5F2856D17B00C4F74F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -46,6 +56,10 @@
 		D78D455028641240005D7277 /* v07.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v07.mp4; path = ../../../Movies/VuepointVideos/v07.mp4; sourceTree = "<group>"; };
 		D78D455128641240005D7277 /* v09.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v09.mp4; path = ../../../Movies/VuepointVideos/v09.mp4; sourceTree = "<group>"; };
 		D78D455228641240005D7277 /* v08.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = v08.mp4; path = ../../../Movies/VuepointVideos/v08.mp4; sourceTree = "<group>"; };
+		D7A2D1B0289EEFB700C05436 /* SelectedAlbumImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAlbumImageViewController.swift; sourceTree = "<group>"; };
+		D7B437DF286AB0390017E884 /* SelectedAlbumViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAlbumViewController.swift; sourceTree = "<group>"; };
+		D7B437E1286BCB330017E884 /* SelectedAlbumCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedAlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		D7B437E2286BCB330017E884 /* SelectedAlbumCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectedAlbumCollectionViewCell.xib; sourceTree = "<group>"; };
 		D7E3BCBD2856A7C300643DCC /* Vuepoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vuepoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7E3BCC02856A7C300643DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7E3BCC22856A7C300643DCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,10 +84,14 @@
 		D7640A612856D2B600C4F74F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D752F71B286A7A210009E185 /* AlbumsCollectionViewCell.swift */,
+				D752F71C286A7A210009E185 /* AlbumsCollectionViewCell.xib */,
 				D7640A642856D6EB00C4F74F /* MyCollectionViewCell.swift */,
 				D7640A652856D6EB00C4F74F /* MyCollectionViewCell.xib */,
 				D72B7FF9285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift */,
 				D72B7FFA285ABF4B00CA0CA7 /* VideoCollectionViewCell.xib */,
+				D7B437E1286BCB330017E884 /* SelectedAlbumCollectionViewCell.swift */,
+				D7B437E2286BCB330017E884 /* SelectedAlbumCollectionViewCell.xib */,
 				D72B7FF528582CC100CA0CA7 /* Media.swift */,
 			);
 			path = Model;
@@ -92,6 +110,9 @@
 			children = (
 				D7E3BCC42856A7C300643DCC /* ViewController.swift */,
 				D7640A5F2856D17B00C4F74F /* VideoViewController.swift */,
+				D752F71F286A7C2E0009E185 /* AlbumsViewController.swift */,
+				D7B437DF286AB0390017E884 /* SelectedAlbumViewController.swift */,
+				D7A2D1B0289EEFB700C05436 /* SelectedAlbumImageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -197,6 +218,7 @@
 				D78D455728641240005D7277 /* v04.mp4 in Resources */,
 				D78D455628641240005D7277 /* v02.mp4 in Resources */,
 				D78D455328641240005D7277 /* v06.mp4 in Resources */,
+				D752F71E286A7A210009E185 /* AlbumsCollectionViewCell.xib in Resources */,
 				D78D455928641240005D7277 /* v07.mp4 in Resources */,
 				D78D455428641240005D7277 /* v05.mp4 in Resources */,
 				D78D455828641240005D7277 /* v01.mp4 in Resources */,
@@ -206,6 +228,7 @@
 				D78D455A28641240005D7277 /* v09.mp4 in Resources */,
 				D7640A672856D6EB00C4F74F /* MyCollectionViewCell.xib in Resources */,
 				D7E3BCC82856A7C300643DCC /* Main.storyboard in Resources */,
+				D7B437E4286BCB330017E884 /* SelectedAlbumCollectionViewCell.xib in Resources */,
 				D78D455B28641240005D7277 /* v08.mp4 in Resources */,
 				D78D455528641240005D7277 /* v03.mp4 in Resources */,
 			);
@@ -219,12 +242,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				D72B7FFB285ABF4B00CA0CA7 /* VideoCollectionViewCell.swift in Sources */,
+				D7A2D1B1289EEFB700C05436 /* SelectedAlbumImageViewController.swift in Sources */,
 				D7E3BCC52856A7C300643DCC /* ViewController.swift in Sources */,
+				D752F720286A7C2E0009E185 /* AlbumsViewController.swift in Sources */,
 				D7640A662856D6EB00C4F74F /* MyCollectionViewCell.swift in Sources */,
 				D72B7FF628582CC100CA0CA7 /* Media.swift in Sources */,
+				D7B437E3286BCB330017E884 /* SelectedAlbumCollectionViewCell.swift in Sources */,
+				D752F71D286A7A210009E185 /* AlbumsCollectionViewCell.swift in Sources */,
 				D7640A602856D17B00C4F74F /* VideoViewController.swift in Sources */,
 				D7E3BCC12856A7C300643DCC /* AppDelegate.swift in Sources */,
 				D7E3BCC32856A7C300643DCC /* SceneDelegate.swift in Sources */,
+				D7B437E0286AB0390017E884 /* SelectedAlbumViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -356,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -379,8 +407,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +420,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -407,8 +437,10 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -418,7 +450,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

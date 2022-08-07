@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         
         collectionView.collectionViewLayout = layout
-        collectionView.register(MyCollectionViewCell.nib(), forCellWithReuseIdentifier: MyCollectionViewCell.identifier)
+        collectionView.register(MyCollectionViewCell.nib(), forCellWithReuseIdentifier: MyCollectionViewCell.collectionIdentifier)
         collectionView.delegate = self
         collectionView.dataSource = self
     }
@@ -41,10 +41,12 @@ extension ViewController: UICollectionViewDataSource {
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCell.identifier, for: indexPath) as! MyCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: MyCollectionViewCell.collectionIdentifier, for: indexPath) as! MyCollectionViewCell
          
         cell.configureCollection(with: Media.homeImages[indexPath.row])
         
+        cell.layer.cornerRadius = 12
+
         return cell
     }
     

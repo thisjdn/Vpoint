@@ -59,13 +59,13 @@ extension VideoViewController: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return Media.videoImages.count
     }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        
-        
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell { 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: videoIdentifier, for: indexPath) as! VideoCollectionViewCell
         
         cell.configureVideo(with: Media.videoImages[indexPath.row])
         
+        cell.layer.cornerRadius = 12
+
         return cell
     }
 }

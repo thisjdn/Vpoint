@@ -10,12 +10,12 @@ import UIKit
 
 struct Media {
     
-    static var testImage = UIImage(named: "testImage")!
+    static var testImage1 = UIImage(named: "b01")!
+    static var testImage2 = UIImage(named: "b02")!
     
-    static var testImageList = [
-        UIImage(named: "beauty1")!,
-        UIImage(named: "beauty2")!,
-        UIImage(named: "beauty3")!
+    static var albumList = [
+        "fashionImages",
+        "beautyImages"
     ]
     
     static var homeImages = [
@@ -49,6 +49,37 @@ struct Media {
         UIImage(named: "v08")!,
         UIImage(named: "v09")!
     ]
+    
+    static var fashionImages = [
+        UIImage(named: "f01")!,
+        UIImage(named: "f02")!,
+        UIImage(named: "f03")!,
+        UIImage(named: "f04")!,
+        UIImage(named: "f05")!,
+        UIImage(named: "f06")!,
+        UIImage(named: "f07")!,
+        UIImage(named: "f08")!,
+        UIImage(named: "f09")!,
+        UIImage(named: "f10")!
+    ]
+    
+    static var beautyImages = [
+        UIImage(named: "b01")!,
+        UIImage(named: "b02")!,
+        UIImage(named: "b03")!,
+        UIImage(named: "b04")!,
+        UIImage(named: "b05")!,
+        UIImage(named: "b06")!,
+        UIImage(named: "b07")!,
+        UIImage(named: "b08")!,
+        UIImage(named: "b09")!,
+        UIImage(named: "b10")!
+    ]
+    
+    static var albumImages = [
+        UIImage(named: "f01")!,
+        UIImage(named: "b01")!
+    ]
      
     static var videos = [
         "v01",
@@ -61,5 +92,9 @@ struct Media {
         "v08",
         "v09"
     ]
+    
+    
+    
+    
     
 }
